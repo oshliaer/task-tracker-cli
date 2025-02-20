@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "noLib": false,
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "checkJs": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true
+  }
+}

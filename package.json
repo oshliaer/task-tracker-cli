@@ -1,0 +1,31 @@
+{
+  "name": "@oshliaer/task-tracker-cli",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "cli",
+    "npmtool"
+  ],
+  "homepage": "https://github.com/oshliaer/task-tracker-cli#readme",
+  "bugs": {
+    "url": "https://github.com/oshliaer/task-tracker-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oshliaer/task-tracker-cli.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "task-cli": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/node": "^22.13.4"
+  }
+}
