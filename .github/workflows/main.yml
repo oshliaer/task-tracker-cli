@@ -17,4 +17,3 @@ jobs:
         with:
           google_api_key: ${{ secrets.GOOGLE_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
