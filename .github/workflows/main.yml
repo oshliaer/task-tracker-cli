@@ -6,7 +6,7 @@ jobs:
     name: A job to say hello
     steps:
       - name: Run Roadmap Quality Analysis
-        uses: oshliaer/roadmap-quality-gate@master
+        uses: oshliaer/roadmap-quality-gate@fix_inputs
         with:
           google_api_key: ${{ secrets.GOOGLE_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
